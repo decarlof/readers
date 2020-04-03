@@ -7,3 +7,6 @@ print(data.head())
 print(data)
 print(data['yy'])
 print(data['id'][0])
+
+plt.plot(data['lat'])
+plt.show()
