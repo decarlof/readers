@@ -9,4 +9,5 @@ print(data['yy'])
 print(data['id'][0])
 
 plt.plot(data['lat'])
+plt.plot(data['dd'])
 plt.show()
