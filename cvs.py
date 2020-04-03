@@ -6,4 +6,4 @@ data = pandas.read_csv('/Users/decarlo/conda/readers/data.cvs', sep = "\s+|\t+|\
 print(data.head())
 print(data)
 print(data['yy'])
-print(data['id'])
+print(data['id'][0])
